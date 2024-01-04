@@ -1,11 +1,15 @@
 #include "main.h"
 
 /* Function to display the family tree in a beautiful format */
-void display(node *root, int level) {
-    if (root != NULL) {
+void display(node *root, int level) 
+{
+    int i;
+    if (root != NULL) 
+    {
         display(root->right, level + 1); /* Display the right subtree */
 
-        for (int i = 0; i < level; i++) {
+        for (i = 0; i < level; i++)
+        {
             printf("    "); /* Adjust indentation based on the level */
         }
 
