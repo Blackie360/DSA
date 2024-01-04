@@ -12,7 +12,7 @@ typedef struct node
 }node;
 
 node *create();
-node *display();
-node *free();
+void display(node *root, int level);
+node *freeTree(node *root);
 
 #endif
