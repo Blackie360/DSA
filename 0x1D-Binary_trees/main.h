@@ -7,8 +7,8 @@
 typedef struct node 
 {
     int data;
-    node *left;
-    node *right;
+    struct node *left;
+    struct node *right;
 }node;
 
 node *create();
