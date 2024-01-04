@@ -13,6 +13,6 @@ typedef struct node
 
 node *create();
 void display(node *root, int level);
-void *freeTree(node *root);
+void freeTree(node *root);
 
 #endif
