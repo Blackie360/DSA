@@ -7,7 +7,7 @@ int main(void)
     /* Call the create function to build the family tree*/
     root = create();
 
-if (root != NULL) 
+    if (root != NULL) 
     {
         printf("Family Tree:\n");
         display(root, 0); /* Display the family tree */
@@ -16,6 +16,8 @@ if (root != NULL)
     {
         printf("Tree is empty.\n");
     }
+
+    preorder(root);
 
     return 0;
 }
