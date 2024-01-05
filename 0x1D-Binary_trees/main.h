@@ -16,5 +16,6 @@ void display(node *root, int level);
 void freeTree(node *root);
 void preorder(node *root);
 void inorder(node *root);
+void postorder(node *root);
 
 #endif
