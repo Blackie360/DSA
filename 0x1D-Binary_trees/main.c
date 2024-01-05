@@ -18,6 +18,7 @@ int main(void)
     }
 
     preorder(root);
+    inorder(root);
 
     return 0;
 }
