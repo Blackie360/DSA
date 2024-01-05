@@ -15,5 +15,6 @@ node *create();
 void display(node *root, int level);
 void freeTree(node *root);
 void preorder(node *root);
+void inorder(node *root);
 
 #endif
